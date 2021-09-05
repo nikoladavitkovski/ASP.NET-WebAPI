@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 namespace UserApplication.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public class UserController : ControllerBase
     {
         public static List<User> users = new List<User>
