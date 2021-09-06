@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace UserApplication.Controllers
@@ -32,30 +33,11 @@ namespace UserApplication.Controllers
                 LastName = "Dimcevski"
             }
         };
+
+        [HttpGet("all")]
         public ActionResult<List<User>> GetAllUsers(User user)
         {
-            User user1 = new User {
-                Age = 28,
-                FirstName = "Andrej",
-                LastName = "Lazarevski"
-            };
-            User user2 = new User
-            {
-                Age = 31,
-                FirstName = "Filip",
-                LastName = "Petrovski"
-            };
-            User user3 = new User
-            {
-                Age = 34,
-                FirstName = "Viktor",
-                LastName = "Dimcevski"
-            };
-            return users;
-        }
-        public ActionResult<List<User>> GetUserByIndex(User user)
-        {
-            if(users.Count() == 1)
+            if (users.Count() == 1)
             {
                 User user1 = new User
                 {
@@ -64,7 +46,7 @@ namespace UserApplication.Controllers
                     LastName = "Lazarevski"
                 };
             }
-            if(users.Count() == 2)
+            if (users.Count() == 2)
             {
                 User user2 = new User
                 {
@@ -73,7 +55,7 @@ namespace UserApplication.Controllers
                     LastName = "Petrovski"
                 };
             }
-            if(users.Count() == 3)
+            if (users.Count() == 3)
             {
                 User user3 = new User
                 {
@@ -82,7 +64,40 @@ namespace UserApplication.Controllers
                     LastName = "Dimcevski"
                 };
             }
-            return users;
+            return Ok(users);
+        }
+
+        [HttpGet("{id}")]
+        public ActionResult<List<User>> GetUserByIndex(int id)
+        {
+            if(id == 1)
+            {
+                User user1 = new User()
+                {
+                    Age = 28,
+                    FirstName = "Andrej",
+                    LastName = "Lazarevski"
+                };
+            }
+            if(id == 2)
+            {
+                User user2 = new User()
+                {
+                    Age = 31,
+                    FirstName = "Filip",
+                    LastName = "Petrovski"
+                };
+            }
+            if(id == 3)
+            {
+                User user3 = new User()
+                {
+                    Age = 34,
+                    FirstName = "Viktor",
+                    LastName = "Dimcevski"
+                };
+            }
+            return Ok(users);
         }
         public ActionResult<User> CheckUsers(User user)
         {
@@ -90,7 +105,7 @@ namespace UserApplication.Controllers
             {
                 System.Console.WriteLine("The user is an adult.");
             }
-            return user;
+            return Ok(users);
         }
         public ActionResult<List<User>> GetAll(User user)
         {
@@ -99,7 +114,7 @@ namespace UserApplication.Controllers
                 StatusCode(StatusCodes.Status404NotFound);
                 return NotFound();
             }
-            return BadRequest();
+            return Ok(user);
         }
     }
 }
