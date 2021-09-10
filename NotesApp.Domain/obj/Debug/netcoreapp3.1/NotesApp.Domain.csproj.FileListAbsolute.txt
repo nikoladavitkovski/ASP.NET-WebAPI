@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\SEDC.NoteApp\NotesApp.Domain\bin\Debug\netcoreapp3.1\NotesApp.Domain.deps.json
+C:\Users\User\source\repos\SEDC.NoteApp\NotesApp.Domain\bin\Debug\netcoreapp3.1\NotesApp.Domain.dll
+C:\Users\User\source\repos\SEDC.NoteApp\NotesApp.Domain\bin\Debug\netcoreapp3.1\NotesApp.Domain.pdb
+C:\Users\User\source\repos\SEDC.NoteApp\NotesApp.Domain\obj\Debug\netcoreapp3.1\NotesApp.Domain.csprojAssemblyReference.cache
+C:\Users\User\source\repos\SEDC.NoteApp\NotesApp.Domain\obj\Debug\netcoreapp3.1\NotesApp.Domain.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\SEDC.NoteApp\NotesApp.Domain\obj\Debug\netcoreapp3.1\NotesApp.Domain.AssemblyInfo.cs
+C:\Users\User\source\repos\SEDC.NoteApp\NotesApp.Domain\obj\Debug\netcoreapp3.1\NotesApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SEDC.NoteApp\NotesApp.Domain\obj\Debug\netcoreapp3.1\NotesApp.Domain.dll
+C:\Users\User\source\repos\SEDC.NoteApp\NotesApp.Domain\obj\Debug\netcoreapp3.1\NotesApp.Domain.pdb

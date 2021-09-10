@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "NotesApp.DataAccess/1.0.0": {
+        "dependencies": {
+          "NotesApp.Domain": "1.0.0"
+        },
+        "runtime": {
+          "NotesApp.DataAccess.dll": {}
+        }
+      },
+      "NotesApp.Domain/1.0.0": {
+        "runtime": {
+          "NotesApp.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NotesApp.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NotesApp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

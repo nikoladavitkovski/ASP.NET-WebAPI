@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\SEDC.NoteApp\NotesApp.DataAccess\bin\Debug\netcoreapp3.1\NotesApp.DataAccess.deps.json
+C:\Users\User\source\repos\SEDC.NoteApp\NotesApp.DataAccess\bin\Debug\netcoreapp3.1\NotesApp.DataAccess.dll
+C:\Users\User\source\repos\SEDC.NoteApp\NotesApp.DataAccess\bin\Debug\netcoreapp3.1\NotesApp.DataAccess.pdb
+C:\Users\User\source\repos\SEDC.NoteApp\NotesApp.DataAccess\bin\Debug\netcoreapp3.1\NotesApp.Domain.dll
+C:\Users\User\source\repos\SEDC.NoteApp\NotesApp.DataAccess\bin\Debug\netcoreapp3.1\NotesApp.Domain.pdb
+C:\Users\User\source\repos\SEDC.NoteApp\NotesApp.DataAccess\obj\Debug\netcoreapp3.1\NotesApp.DataAccess.csprojAssemblyReference.cache
+C:\Users\User\source\repos\SEDC.NoteApp\NotesApp.DataAccess\obj\Debug\netcoreapp3.1\NotesApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\SEDC.NoteApp\NotesApp.DataAccess\obj\Debug\netcoreapp3.1\NotesApp.DataAccess.AssemblyInfo.cs
+C:\Users\User\source\repos\SEDC.NoteApp\NotesApp.DataAccess\obj\Debug\netcoreapp3.1\NotesApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SEDC.NoteApp\NotesApp.DataAccess\obj\Debug\netcoreapp3.1\NotesApp.DataAccess.csproj.CopyComplete
+C:\Users\User\source\repos\SEDC.NoteApp\NotesApp.DataAccess\obj\Debug\netcoreapp3.1\NotesApp.DataAccess.dll
+C:\Users\User\source\repos\SEDC.NoteApp\NotesApp.DataAccess\obj\Debug\netcoreapp3.1\NotesApp.DataAccess.pdb
