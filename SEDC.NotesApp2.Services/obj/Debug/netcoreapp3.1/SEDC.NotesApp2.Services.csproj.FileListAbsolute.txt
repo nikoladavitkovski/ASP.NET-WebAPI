@@ -1,0 +1,8 @@
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NotesApp2.Services\bin\Debug\netcoreapp3.1\SEDC.NoteApp2.DataAccess.dll
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NotesApp2.Services\bin\Debug\netcoreapp3.1\SEDC.NoteApp2.Domain.dll
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NotesApp2.Services\bin\Debug\netcoreapp3.1\SEDC.NoteApp2.Dto.dll
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NotesApp2.Services\bin\Debug\netcoreapp3.1\SEDC.NoteApp2.Mappers.dll
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NotesApp2.Services\bin\Debug\netcoreapp3.1\SEDC.NoteApp2.Shared.dll
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NotesApp2.Services\obj\Debug\netcoreapp3.1\SEDC.NotesApp2.Services.csprojAssemblyReference.cache
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NotesApp2.Services\obj\Debug\netcoreapp3.1\SEDC.NotesApp2.Services.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NotesApp2.Services\obj\Debug\netcoreapp3.1\SEDC.NotesApp2.Services.AssemblyInfo.cs
