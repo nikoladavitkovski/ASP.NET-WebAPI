@@ -1,0 +1,17 @@
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.DataAccess\bin\Debug\net5.0\SEDC.PhoneBook2.DataAccess.deps.json
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.DataAccess\bin\Debug\net5.0\SEDC.PhoneBook2.DataAccess.dll
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.DataAccess\bin\Debug\net5.0\ref\SEDC.PhoneBook2.DataAccess.dll
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.DataAccess\bin\Debug\net5.0\SEDC.PhoneBook2.DataAccess.pdb
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.DataAccess\bin\Debug\net5.0\SEDC.PhoneBook2.Domain.dll
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.DataAccess\bin\Debug\net5.0\SEDC.PhoneBook2.Dto.dll
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.DataAccess\bin\Debug\net5.0\SEDC.PhoneBook2.Domain.pdb
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.DataAccess\bin\Debug\net5.0\SEDC.PhoneBook2.Dto.pdb
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.DataAccess\obj\Debug\net5.0\SEDC.PhoneBook2.DataAccess.csprojAssemblyReference.cache
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.DataAccess\obj\Debug\net5.0\SEDC.PhoneBook2.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.DataAccess\obj\Debug\net5.0\SEDC.PhoneBook2.DataAccess.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.DataAccess\obj\Debug\net5.0\SEDC.PhoneBook2.DataAccess.AssemblyInfo.cs
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.DataAccess\obj\Debug\net5.0\SEDC.PhoneBook2.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.DataAccess\obj\Debug\net5.0\SEDC.PhoneBook2.DataAccess.csproj.CopyComplete
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.DataAccess\obj\Debug\net5.0\SEDC.PhoneBook2.DataAccess.dll
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.DataAccess\obj\Debug\net5.0\ref\SEDC.PhoneBook2.DataAccess.dll
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.DataAccess\obj\Debug\net5.0\SEDC.PhoneBook2.DataAccess.pdb

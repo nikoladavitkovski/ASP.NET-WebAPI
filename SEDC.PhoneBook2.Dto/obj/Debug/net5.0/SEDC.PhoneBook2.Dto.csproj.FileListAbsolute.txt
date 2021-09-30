@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.Dto\bin\Debug\net5.0\SEDC.PhoneBook2.Dto.deps.json
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.Dto\bin\Debug\net5.0\SEDC.PhoneBook2.Dto.dll
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.Dto\bin\Debug\net5.0\ref\SEDC.PhoneBook2.Dto.dll
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.Dto\bin\Debug\net5.0\SEDC.PhoneBook2.Dto.pdb
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.Dto\bin\Debug\net5.0\SEDC.PhoneBook2.Domain.dll
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.Dto\bin\Debug\net5.0\SEDC.PhoneBook2.Domain.pdb
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.Dto\obj\Debug\net5.0\SEDC.PhoneBook2.Dto.csprojAssemblyReference.cache
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.Dto\obj\Debug\net5.0\SEDC.PhoneBook2.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.Dto\obj\Debug\net5.0\SEDC.PhoneBook2.Dto.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.Dto\obj\Debug\net5.0\SEDC.PhoneBook2.Dto.AssemblyInfo.cs
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.Dto\obj\Debug\net5.0\SEDC.PhoneBook2.Dto.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.Dto\obj\Debug\net5.0\SEDC.PhoneBook2.Dto.csproj.CopyComplete
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.Dto\obj\Debug\net5.0\SEDC.PhoneBook2.Dto.dll
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.Dto\obj\Debug\net5.0\ref\SEDC.PhoneBook2.Dto.dll
+C:\Users\User\source\repos\SEDC.PhoneBook2\SEDC.PhoneBook2.Dto\obj\Debug\net5.0\SEDC.PhoneBook2.Dto.pdb

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SEDC.PhoneBook2.DataAccess\SEDC.PhoneBook2.DataAccess.csproj" />
+    <ProjectReference Include="..\SEDC.PhoneBook2.Domain\SEDC.PhoneBook2.Domain.csproj" />
+    <ProjectReference Include="..\SEDC.PhoneBook2.Dto\SEDC.PhoneBook2.Dto.csproj" />
+    <ProjectReference Include="..\SEDC.PhoneBook2.Mappers\SEDC.PhoneBook2.Mappers.csproj" />
+  </ItemGroup>
+
+</Project>
