@@ -12,6 +12,8 @@ namespace SEDC.NoteApp2.DataAccess.Interfaces
 
         bool IsUsernameInUse(string username);
 
+        void ChangePassWord(int userId, string newPasswordHashed);
+
         User GetUserByUserNameAndPassWord(string username,string password);
     }
 }

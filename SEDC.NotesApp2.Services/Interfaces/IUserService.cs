@@ -15,7 +15,7 @@ namespace SEDC.NotesApp2.Services.Interfaces
         void UpdateUser(UserDto userDto);
         void DeleteUser(int id);
         TokenDto Authenticate(string userName, string passWord);
-        bool ChangeUserPassWord(string password);
+        bool ChangeUserPassWord(int userId,string password, string newPassWord);
         void AddUser(RegisterUserDto userDto);
     }
 }

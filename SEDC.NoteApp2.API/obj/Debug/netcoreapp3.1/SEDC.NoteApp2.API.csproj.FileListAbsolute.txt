@@ -82,3 +82,6 @@ C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.API\bin\Debug\netcoreapp3
 C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.API\bin\Debug\netcoreapp3.1\SEDC.NoteApp2.Dto.dll
 C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.API\bin\Debug\netcoreapp3.1\SEDC.NoteApp2.Mappers.dll
 C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.API\bin\Debug\netcoreapp3.1\SEDC.NotesApp2.Services.dll
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.API\obj\Debug\netcoreapp3.1\SEDC.NoteApp2.API.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.API\obj\Debug\netcoreapp3.1\SEDC.NoteApp2.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.API\obj\Debug\netcoreapp3.1\SEDC.NoteApp2.API.MvcApplicationPartsAssemblyInfo.cache

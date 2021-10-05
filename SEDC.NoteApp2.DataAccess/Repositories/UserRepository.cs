@@ -55,6 +55,12 @@ namespace SEDC.NoteApp2.DataAccess.Repositories
             return _notesAppDbContext.Users.SingleOrDefault(x => x.Username == username && x.PassWord == password);
         }
 
+        public void ChangePassWord(int userId, string newPasswordHashed)
+        {
+            _notesAppDbContext.Users.Single(x => x.Id == userId).PassWord = newPasswordHashed;
+            _notesAppDbContext.SaveChanges();
+        }
+
         public User GetByIdIncludeNotes(int id)
         {
             return _notesAppDbContext

@@ -1,4 +1,5 @@
 ﻿using Microsoft.IdentityModel.Tokens;
+using Microsoft.TeamFoundation.TestManagement.WebApi;
 using SEDC.NoteApp2.DataAccess.Interfaces;
 using SEDC.NoteApp2.Domain.Models;
 using SEDC.NoteApp2.Dto.Models;
@@ -6,8 +7,12 @@ using SEDC.NoteApp2.Mappers;
 using SEDC.NoteApp2.Shared.Helpers;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Web;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -63,24 +68,17 @@ namespace SEDC.NotesApp2.Services.Implementations
             return tokenDto;
         }
 
-        public bool ChangeUserPassWord(string password)
+        public bool ChangeUserPassWord(int userId, string password, string newPassWord)
         {
-            Regex passwordRegex = new Regex("^(?=.*[0-9])(?=.*[a-z]).{6,20}$");
-            Match match = passwordRegex.Match(password);
-            if (!ChangeUserPassWord(password))
+            User user = _userRepository.GetById(userId);
+            if(user.PassWord != password.GenerateMD5())
             {
-                return ChangeUserPassWord($"The password {password} you entered can not be found.");
+                return false;
             }
-            if (password.Length > 20)
-            {
-                return ChangeUserPassWord($"The password {password.Length} must contain up to 20 characters.");
-            }
-            if(password.StartsWith("b") && password.EndsWith("y"))
-            {
-                return ChangeUserPassWord($"The password {password} you have entered matches correctly.");
-            }
-            return match.Success;
+            _userRepository.ChangePassWord(userId,newPassWord.GenerateMD5());
+            return true;
         }
+        
         public void DeleteUser(int id)
         {
             User user = _userRepository.GetById(id);

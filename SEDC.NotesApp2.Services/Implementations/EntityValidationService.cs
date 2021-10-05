@@ -82,5 +82,23 @@ namespace SEDC.NotesApp2.Services.Implementations
             }
             return match.Success;
         }
+        private static bool ChangeUserPassWord(string password)
+        {
+            Regex passwordRegex = new Regex("^(?=.*[0-9])(?=.*[a-z]).{6,20}$");
+            Match match = passwordRegex.Match(password);
+            if (!ChangeUserPassWord(password))
+            {
+                return ChangeUserPassWord($"The password {password} you entered is incorrect.");
+            }
+            if (password.Length > 20 || password.Length < 10)
+            {
+                return ChangeUserPassWord($"The password {password.Length} must contain up to 20 characters.");
+            }
+            if (password.StartsWith("b") && password.EndsWith("y"))
+            {
+                return ChangeUserPassWord($"The password {password} you have entered matches correctly.");
+            }
+            return match.Success;
+        }
     }
 }

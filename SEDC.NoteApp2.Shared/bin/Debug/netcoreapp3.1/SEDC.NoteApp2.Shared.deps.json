@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SEDC.NoteApp2.Shared/1.0.0": {
+        "runtime": {
+          "SEDC.NoteApp2.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SEDC.NoteApp2.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
