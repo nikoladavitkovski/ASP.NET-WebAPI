@@ -2,6 +2,7 @@
 using SEDC.NoteApp2.Domain.Models;
 using SEDC.NoteApp2.Dto.Models;
 using SEDC.NoteApp2.Mappers;
+using SEDC.NoteApp2.Shared.Exceptions;
 using SEDC.NotesApp2.Services.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -13,7 +14,7 @@ namespace SEDC.NotesApp2.Services.Implementations
     {
         private INoteRepository _noteRepository;
 
-        public NoteService(INoteRepository noteRepository)
+        public NoteService(INoteRepository noteRepository, Microsoft.Extensions.Options.IOptions<NoteApp2.Shared.AppSettings> options)
         {
             _noteRepository = noteRepository;
         }
@@ -61,6 +62,12 @@ namespace SEDC.NotesApp2.Services.Implementations
         public NoteDto GetNoteById(int id)
         {
             Note note = _noteRepository.GetById(id);
+
+            if (note == null)
+            {
+                throw new NoteException(id, "Note not found");
+            }
+
             NoteDto noteDto = NoteMapper.ToNoteDto(note);
             return noteDto;
         }

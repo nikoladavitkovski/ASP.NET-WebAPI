@@ -12,3 +12,7 @@ C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.DataAccess\obj\Debug\netc
 C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.DataAccess\obj\Debug\netcoreapp3.1\SEDC.NoteApp2.DataAccess.csproj.CopyComplete
 C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.DataAccess\obj\Debug\netcoreapp3.1\SEDC.NoteApp2.DataAccess.dll
 C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.DataAccess\obj\Debug\netcoreapp3.1\SEDC.NoteApp2.DataAccess.pdb
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.DataAccess\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.DataAccess\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.DataAccess\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.DataAccess\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.AdapterUtilities.dll

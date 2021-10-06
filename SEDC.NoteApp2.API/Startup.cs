@@ -20,6 +20,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using SEDC.NoteApp2.DataAccess.Repositories;
 using SEDC.NotesApp2.Services.Implementations;
+using SEDC.NoteApp2.Shared;
 
 namespace SEDC.NoteApp2.API
 {
@@ -37,6 +38,15 @@ namespace SEDC.NoteApp2.API
         {
 
             services.AddControllers();
+
+            IConfigurationSection configurationSection = Configuration.GetSection("AppSettings");
+            services.Configure<AppSettings>(configurationSection);
+            AppSettings appSettings = configurationSection.Get<AppSettings>();
+
+            services.AddDbContext<NotesDbContext>(
+                options => options.UseSqlServer(appSettings.NotesDbConnectionString)
+                );
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "SEDC.NoteApp2.API", Version = "v1" });

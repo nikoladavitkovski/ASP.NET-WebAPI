@@ -15,16 +15,20 @@ using System.Security.Claims;
 using System.Web;
 using System.Text;
 using System.Text.RegularExpressions;
+using SEDC.NoteApp2.Shared;
+using Microsoft.Extensions.Options;
 
 namespace SEDC.NotesApp2.Services.Implementations
 {
     public class UserService
     {
         private IUserRepository _userRepository;
+        private IOptions<AppSettings> _options;
 
-        public UserService(IUserRepository userRepository)
+        public UserService(IUserRepository userRepository, IOptions<AppSettings> options)
         {
             _userRepository = userRepository;
+            _options = options;
         }
 
         public void AddUser(UserDto userDto)
@@ -43,7 +47,7 @@ namespace SEDC.NotesApp2.Services.Implementations
             }
 
             JwtSecurityTokenHandler tokenHandler = new JwtSecurityTokenHandler();
-            byte[] key = Encoding.ASCII.GetBytes("v9pU6HkfcZst3ksP");
+            byte[] key = Encoding.ASCII.GetBytes(_options.Value.Secret);
 
             SecurityTokenDescriptor tokenDescriptor = new SecurityTokenDescriptor()
             {

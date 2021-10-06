@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using SEDC.NoteApp2.Dto.Models;
 using SEDC.NoteApp2.Dto.ValidationModels;
+using SEDC.NoteApp2.Shared.Exceptions;
 using SEDC.NotesApp2.Services.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -40,8 +41,19 @@ namespace SEDC.NoteApp2.API.Controllers
         [HttpGet("{id}")]
         public ActionResult<List<NoteDto>> GetNoteById(int id)
         {
-            NoteDto note = _noteService.GetNoteById(id);
-            return StatusCode(StatusCodes.Status200OK, note);
+            try
+            {
+                NoteDto note = _noteService.GetNoteById(id);
+                return StatusCode(StatusCodes.Status200OK, note);
+            }
+            catch (NoteException noteEx)
+            {
+                return StatusCode(StatusCodes.Status404NotFound, noteEx.Message);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status400BadRequest, ex.Message);
+            }
         }
 
         [HttpPost("")]

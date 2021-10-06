@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v3.1": {
       "SEDC.NotesApp2.Services/1.0.0": {
         "dependencies": {
+          "MSTest.TestAdapter": "2.2.7",
+          "MSTest.TestFramework": "2.2.7",
           "Microsoft.TeamFoundationServer.Client": "16.170.0",
           "SEDC.NoteApp2.DataAccess": "1.0.0",
           "SEDC.NoteApp2.Dto": "1.0.0",
@@ -319,6 +321,28 @@
           }
         }
       },
+      "MSTest.TestAdapter/2.2.7": {
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "System.Diagnostics.TextWriterTraceListener": "4.3.0"
+        }
+      },
+      "MSTest.TestFramework/2.2.7": {
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "System.Diagnostics.TextWriterTraceListener": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {
+            "assemblyVersion": "14.0.0.0",
+            "fileVersion": "14.0.6403.6"
+          },
+          "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {
+            "assemblyVersion": "14.0.0.0",
+            "fileVersion": "14.0.6403.6"
+          }
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -583,11 +607,34 @@
           }
         }
       },
+      "System.Diagnostics.TextWriterTraceListener/4.3.0": {
+        "dependencies": {
+          "System.Diagnostics.TraceSource": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Threading": "4.3.0"
+        }
+      },
       "System.Diagnostics.Tools/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Diagnostics.TraceSource/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "runtime.native.System": "4.3.0"
         }
       },
       "System.Diagnostics.Tracing/4.3.0": {
@@ -1296,6 +1343,8 @@
       },
       "SEDC.NoteApp2.DataAccess/1.0.0": {
         "dependencies": {
+          "MSTest.TestAdapter": "2.2.7",
+          "MSTest.TestFramework": "2.2.7",
           "SEDC.NoteApp2.Domain": "1.0.0"
         },
         "runtime": {
@@ -1304,6 +1353,8 @@
       },
       "SEDC.NoteApp2.Domain/1.0.0": {
         "dependencies": {
+          "MSTest.TestAdapter": "2.2.7",
+          "MSTest.TestFramework": "2.2.7",
           "Microsoft.EntityFrameworkCore": "5.0.10",
           "SEDC.NoteApp2.Shared": "1.0.0"
         },
@@ -1313,6 +1364,8 @@
       },
       "SEDC.NoteApp2.Dto/1.0.0": {
         "dependencies": {
+          "MSTest.TestAdapter": "2.2.7",
+          "MSTest.TestFramework": "2.2.7",
           "SEDC.NoteApp2.Domain": "1.0.0",
           "SEDC.NoteApp2.Shared": "1.0.0"
         },
@@ -1322,6 +1375,8 @@
       },
       "SEDC.NoteApp2.Mappers/1.0.0": {
         "dependencies": {
+          "MSTest.TestAdapter": "2.2.7",
+          "MSTest.TestFramework": "2.2.7",
           "SEDC.NoteApp2.Dto": "1.0.0"
         },
         "runtime": {
@@ -1329,6 +1384,10 @@
         }
       },
       "SEDC.NoteApp2.Shared/1.0.0": {
+        "dependencies": {
+          "MSTest.TestAdapter": "2.2.7",
+          "MSTest.TestFramework": "2.2.7"
+        },
         "runtime": {
           "SEDC.NoteApp2.Shared.dll": {}
         }
@@ -1508,6 +1567,20 @@
       "sha512": "sha512-Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
       "path": "microsoft.win32.systemevents/5.0.0",
       "hashPath": "microsoft.win32.systemevents.5.0.0.nupkg.sha512"
+    },
+    "MSTest.TestAdapter/2.2.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E8seWhOKGEz4Aq6IaX6dUZGRSVYwLVy+6ZI9nq0TyHRuv54Id4Y7y/CB0KGiOUrqtygfooQm5wmpnDOW28N9Ug==",
+      "path": "mstest.testadapter/2.2.7",
+      "hashPath": "mstest.testadapter.2.2.7.nupkg.sha512"
+    },
+    "MSTest.TestFramework/2.2.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qroVMzabIcbqwxtlDZriZflqs3nKpmqSVoM/Nfw9fg+F6885rrgo9R4gwmK7xxPPd8gpDrmNqqwpnyh6GMoN9g==",
+      "path": "mstest.testframework/2.2.7",
+      "hashPath": "mstest.testframework.2.2.7.nupkg.sha512"
     },
     "NETStandard.Library/1.6.1": {
       "type": "package",
@@ -1747,12 +1820,26 @@
       "path": "system.diagnostics.diagnosticsource/5.0.1",
       "hashPath": "system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
     },
+    "System.Diagnostics.TextWriterTraceListener/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F11kHWeiwYjFWto+kr8tt9ULMH0k8MsT1XmdCGPTLYHhWgN+2g7JsIZiXDrxlFGccSNkbjfwQy4xIS38gzUiZA==",
+      "path": "system.diagnostics.textwritertracelistener/4.3.0",
+      "hashPath": "system.diagnostics.textwritertracelistener.4.3.0.nupkg.sha512"
+    },
     "System.Diagnostics.Tools/4.3.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-UUvkJfSYJMM6x527dJg2VyWPSRqIVB0Z7dbjHst1zmwTXz5CcXSYJFWRpuigfbO1Lf7yfZiIaEUesfnl/g5EyA==",
       "path": "system.diagnostics.tools/4.3.0",
       "hashPath": "system.diagnostics.tools.4.3.0.nupkg.sha512"
+    },
+    "System.Diagnostics.TraceSource/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VnYp1NxGx8Ww731y2LJ1vpfb/DKVNKEZ8Jsh5SgQTZREL/YpWRArgh9pI8CDLmgHspZmLL697CaLvH85qQpRiw==",
+      "path": "system.diagnostics.tracesource/4.3.0",
+      "hashPath": "system.diagnostics.tracesource.4.3.0.nupkg.sha512"
     },
     "System.Diagnostics.Tracing/4.3.0": {
       "type": "package",

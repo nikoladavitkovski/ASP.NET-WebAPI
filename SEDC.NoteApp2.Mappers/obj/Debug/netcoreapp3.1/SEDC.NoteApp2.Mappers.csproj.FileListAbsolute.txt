@@ -14,3 +14,7 @@ C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.Mappers\obj\Debug\netcore
 C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.Mappers\obj\Debug\netcoreapp3.1\SEDC.NoteApp2.Mappers.csproj.CopyComplete
 C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.Mappers\obj\Debug\netcoreapp3.1\SEDC.NoteApp2.Mappers.dll
 C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.Mappers\obj\Debug\netcoreapp3.1\SEDC.NoteApp2.Mappers.pdb
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.Mappers\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.Mappers\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.Mappers\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.Mappers\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.AdapterUtilities.dll
