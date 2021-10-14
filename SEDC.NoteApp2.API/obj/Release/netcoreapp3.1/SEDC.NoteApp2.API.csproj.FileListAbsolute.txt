@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.API\obj\Release\netcoreapp3.1\SEDC.NoteApp2.API.csprojAssemblyReference.cache
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.API\obj\Release\netcoreapp3.1\SEDC.NoteApp2.API.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.API\obj\Release\netcoreapp3.1\SEDC.NoteApp2.API.AssemblyInfo.cs
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.API\obj\Release\netcoreapp3.1\SEDC.NoteApp2.API.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.API\obj\Release\netcoreapp3.1\SEDC.NoteApp2.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.API\obj\Release\netcoreapp3.1\SEDC.NoteApp2.API.MvcApplicationPartsAssemblyInfo.cache

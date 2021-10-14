@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.7" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SEDC.NoteApp2.Domain\SEDC.NoteApp2.Domain.csproj" />
+    <ProjectReference Include="..\SEDC.NoteApp2.Shared\SEDC.NoteApp2.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

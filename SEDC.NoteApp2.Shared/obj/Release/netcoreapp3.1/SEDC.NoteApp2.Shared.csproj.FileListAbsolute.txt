@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.Shared\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.Shared\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.Shared\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.Shared\bin\Release\netcoreapp3.1\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.Shared\bin\Release\netcoreapp3.1\SEDC.NoteApp2.Shared.deps.json
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.Shared\bin\Release\netcoreapp3.1\SEDC.NoteApp2.Shared.dll
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.Shared\bin\Release\netcoreapp3.1\SEDC.NoteApp2.Shared.pdb
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.Shared\obj\Release\netcoreapp3.1\SEDC.NoteApp2.Shared.csprojAssemblyReference.cache
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.Shared\obj\Release\netcoreapp3.1\SEDC.NoteApp2.Shared.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.Shared\obj\Release\netcoreapp3.1\SEDC.NoteApp2.Shared.AssemblyInfo.cs
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.Shared\obj\Release\netcoreapp3.1\SEDC.NoteApp2.Shared.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.Shared\obj\Release\netcoreapp3.1\SEDC.NoteApp2.Shared.dll
+C:\Users\User\source\repos\SEDC.NoteApp2\SEDC.NoteApp2.Shared\obj\Release\netcoreapp3.1\SEDC.NoteApp2.Shared.pdb
